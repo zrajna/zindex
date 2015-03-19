@@ -19,6 +19,10 @@ are required:
  
 NB: seeks for writable files with compression are quite restricted
 
+NB: seeks for large files with compression got notably faster:
+*****  Modified by Zalan Rajna on 18.03.2015
+*****  For modifications: copyright 2015 Zalan Rajna under GNU GPLv3
+
  */
 
 #include "znzlib.h"

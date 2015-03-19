@@ -1,11 +1,8 @@
-/*
- * main.c -- from the example of zlib/gzip stream indexing and random access
- * Copyright (C) 2005 Mark Adler
- * For conditions of distribution and use, see copyright notice in zlib.h
- * Version 1.0  29 May 2005  Mark Adler
+/* main.c -- from the example of zlib/gzip stream indexing and random access
+ * by Mark Adler: zran.c Version 1.0  29 May 2005 under copyright of zlib.h
  *
- *  Modified and extended on: Feb 18, 2015
- *      Author: Zalan Rajna
+ *  Modified and extended: Feb 18, 2015
+ *  For modifications: copyright 2015 Zalan Rajna under GNU GPLv3
  */
 
 #include "zindex.h"

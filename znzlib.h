@@ -15,6 +15,7 @@ znzlib.h  (zipped or non-zipped library)
 *****  incidental or otherwise, caused by any use of this document.     *****
 
 *****  Modified by Zalan Rajna on 18.03.2015
+*****  For modifications: copyright 2015 Zalan Rajna under GNU GPLv3
 
 */
 
