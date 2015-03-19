@@ -14,9 +14,7 @@
 #include <inttypes.h>
 #include "zlib.h"
 
-#ifndef SPAN
-	#define SPAN 4194304L	/* desired distance between access points */
-#endif
+#define SPAN 4194304L	/* desired distance between access points */
 #define WINSIZE 32768U      /* sliding window size */
 #define CHUNK 16384         /* file input buffer size */
 
