@@ -30,7 +30,7 @@ zindex.o: zindex.c zindex.h
 libznz.a: $(OBJS)
 	$(AR) -r libznz.a $(OBJS)
 	$(RANLIB) $@
-	$(CC) -shared -o libznz.so.2.zindex znzlib.o zindex.o -L./ -lznz
+	$(CC) -shared -o libznz.so.2.zindex znzlib.o zindex.o -L./ -lznz -lz
 
 testprog: libznz.a testprog.c
 	$(CC) $(CFLAGS) $(LDFLAGS) -o testprog testprog.c $(ZLIB_LIBS)
